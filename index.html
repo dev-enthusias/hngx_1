@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="script.js"></script>
+
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="user">
+      <!-- Profile details -->
+      <div class="user__content--box">
+        <div class="box">
+          <h2 data-testid="myTrack" class="user__job">Frontend</h2>
+          <h1 data-testid="slackUserName" class="user__name">Anakor Arinze</h1>
+        </div>
+      </div>
+
+      <!-- Profile Image -->
+      <div class="user__img--wrapper">
+        <img
+          src="./images/whatsapp.jpeg"
+          alt="Anakor Arinze"
+          data-testid="slackDisplayImage"
+          class="user__img"
+        />
+      </div>
+
+      <!-- Date -->
+      <p class="date">
+        <span data-testid="currentDayOfTheWeek" class="day">Monday</span>
+        <span data-testid="currentUTCTime" class="time">00:00:00</span>
+      </p>
+
+      <!-- Github link -->
+      <a
+        href="https://github.com/dev-enthusias/hngx_1"
+        target="_blank"
+        data-testid="githubURL"
+        class="user__link"
+        >Github repo <span class="arrow">&rarr;</span></a
+      >
+    </div>
+  </body>
+</html>
